@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+   
+    body {
+        background: url('imagens/download\ \(1\).jpeg');
+        background: 565658;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        padding: 2rem;
+    }
+
+    .container{
+        background-color: gray;
+        padding: 2rem;
+        border-radius: 20px;
+        width: 100%;
+        max-width: 500px;
+        backdrop-filter: blur(25px) saturate(102%);
+    -webkit-backdrop-filter: blur(25px) saturate(102%);
+    background-color: rgba(17, 25, 40, 0.08);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+   
+
+    h2{
+        color: white;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    label{
+        display: block;
+        margin-bottom: 10px;
+        color: rgb(255, 255, 255);
+    }
+
+    input, textarea{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 20px;
+        font-size: 16px;
+    }
+
+    .btn-senha {
+        background: none;
+        color: rgb(255, 255, 255); /* Cor do texto */
+        font-size: 16px; /* Tamanho da fonte */
+        cursor: pointer; /* Cursor de clique */
+        text-align: center;
+        width: 100%;
+        border: none;
+        margin-bottom: 20px; /* Espaço entre os botões */
+        text-decoration: underline;
+      }
+
+      .btn-entrar {
+        width: 100%;
+        padding: 15px;
+        background-color: blue;
+        border: none;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 10px;
+    }
